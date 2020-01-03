@@ -7,7 +7,8 @@ Project is still under development almost ready in pieces, send your merge reque
 
 To check csv files for email list via a mailbox create a app on Azure.
 
-Authentication
+#Authentication
+===============
 
 You can only authenticate using oauth authentication as Microsoft deprecated basic auth on November 1st 2018.
 
@@ -76,7 +77,9 @@ To allow authentication you first need to register your application at Azure Ap
 5. Write down the Application (client) ID. You will need this value.
 6. Under "Certificates & secrets", generate a new client secret. Set the expiration preferably to never. Write down the value of the client secret created now. It will be hidden later on.
 7. Under Api Permissions:
-* When authenticating "on behalf of a user":
+
+> When authenticating "on behalf of a user":
+---
 1. add the delegated permissions for Microsoft Graph you want (see scopes).
 2. It is highly recommended to add "offline_access" permission. If not the user you will have to re-authenticate every hour.
 * When authenticating "with your own identity":
