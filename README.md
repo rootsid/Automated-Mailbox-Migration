@@ -114,15 +114,18 @@ message_send_shared |'Mail.Send.Shared'
 message_all |'Mail.ReadWrite' and 'Mail.Send'
 
 
-#<h1>Mail Check
+#Mail Check
+===========
 
 Subjects will be compared once a migration will be processed that will be added in processed file for logs and future comparison to check new migration emails in Mailbox.
 
-#<h1>Domain Fixer
+#Domain Fixer
+=============
 
 In case of multiple bad proxy domains or company takeover bad proxy domains or any invalid smtp address’s which are not in Accepted Domains List will be removed and correct proxy address will be stamped.
 
-#<h1>Migration Batch
+#Migration Batch
+================
 
 After all preliminary checks a migration batch will be created and will be monitored in backend to check for any errors if any errors will come all will be fixed and batch will be resumed.
 
