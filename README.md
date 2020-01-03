@@ -104,23 +104,17 @@ Note: when using the "on behalf of a user" authentication, you can pass the scop
 You can pass "protocol scopes" (like: "https://graph.microsoft.com/Calendars.ReadWrite") to the method or use "scope helpers" like ("message_all"). If you pass protocol scopes, then the account instance must be initialized with the same protocol used by the scopes. By using scope helpers you can abstract the protocol from the scopes and let this library work for you.
 Finally, you can mix and match "protocol scopes" with "scope helpers". Go to the procotol section to know more about them.
 
-Scope Helper
-Scopes included
-basic
-'offline_access' and 'User.Read'
-mailbox
-'Mail.Read'
-mailbox_shared
-'Mail.Read.Shared'
-message_send
-'Mail.Send'
-message_send_shared
-'Mail.Send.Shared'
-message_all
-'Mail.ReadWrite' and 'Mail.Send'
+Scope Helper | Scopes included
+------------ | ---------------
+basic        | 'offline_access' and 'User.Read'
+mailbox      | 'Mail.Read'
+mailbox_shared |'Mail.Read.Shared'
+message_send | 'Mail.Send'
+message_send_shared |'Mail.Send.Shared'
+message_all |'Mail.ReadWrite' and 'Mail.Send'
 
 
-Mail Check
+<h1>Mail Check<h1>
 
 Subjects will be compared once a migration will be processed that will be added in processed file for logs and future comparison to check new migration emails in Mailbox.
 
