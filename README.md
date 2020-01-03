@@ -6,6 +6,13 @@ Welcome to Automated Staged Mailbox Migration, never need a team now just launch
 Project is still under development almost ready in pieces, send your merge requests if you want to contribute.
 
 To check csv files for email list via a mailbox create a app on Azure.
+#Requirements
+=============
+
+Python 3.7
+'''python
+pip3 install -r requirements.txt 
+'''
 
 #Authentication
 ===============
