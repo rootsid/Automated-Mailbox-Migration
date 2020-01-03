@@ -12,9 +12,9 @@ To check csv files for email list via a mailbox create a app on Azure.
 =============
 
 Python 3.7
-'''python
+```python
 pip3 install -r requirements.txt 
-'''
+```
 
 #Authentication
 ===============
