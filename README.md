@@ -33,8 +33,10 @@ When to use one or the other and requirements:
 
 
 Topic
-On behalf of a user (auth_flow_type=='authorization')
-With your own identity (auth_flow_type=='credentials')
+
+* On behalf of a user (auth_flow_type=='authorization')
+* With your own identity (auth_flow_type=='credentials')
+
 Register the App
 Required
 Required
