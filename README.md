@@ -95,6 +95,7 @@ As an example, to read and send emails use:
 To authenticate (login) you can use different authentication interfaces. On the following examples we will be using the Console Based Interface but you can use any one.
 
 * When authenticating on behalf of a user:
+
 1.Instantiate an Account object with the credentials (client id and client secret).
 
 2.Call account.authenticate and pass the scopes you want (the ones you previously added on the app registration portal).
