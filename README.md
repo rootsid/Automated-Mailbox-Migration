@@ -90,18 +90,17 @@ As an example, to read and send emails use:
 4. Mail.Send
 5. User.Read
 
-
-
 2. Then you need to login for the first time to get the access token that will grant access to the user resources.
 
 To authenticate (login) you can use different authentication interfaces. On the following examples we will be using the Console Based Interface but you can use any one.
 
 * When authenticating on behalf of a user:
 1.Instantiate an Account object with the credentials (client id and client secret).
+
 2.Call account.authenticate and pass the scopes you want (the ones you previously added on the app registration portal).
 
 
-Note: when using the "on behalf of a user" authentication, you can pass the scopes to either the Account init or to the authenticate method. Either way is correct.
+> Note: when using the "on behalf of a user" authentication, you can pass the scopes to either the Account init or to the authenticate method. Either way is correct.
 
 
 You can pass "protocol scopes" (like: "https://graph.microsoft.com/Calendars.ReadWrite") to the method or use "scope helpers" like ("message_all"). If you pass protocol scopes, then the account instance must be initialized with the same protocol used by the scopes. By using scope helpers you can abstract the protocol from the scopes and let this library work for you.
