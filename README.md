@@ -134,4 +134,4 @@ After all preliminary checks a migration batch will be created and will be monit
 
 If completion time is specified in the email then that will be considered otherwise migration will be auto completed.
 
-After Completion of Batch an email will be triggered to Mailbox which you will provide in the beginning with GRAPH API..
+After Completion of Batch an email will be triggered to Mailbox which you will provide in the beginning with GRAPH API.
