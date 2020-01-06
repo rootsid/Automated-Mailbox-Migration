@@ -1,3 +1,11 @@
+####################################################	
+## O365 Auth Token                                ##	
+####################################################	
+
+##################################	
+## Written by: Sidharth Kaushik ##	
+##  root@sidharthkaushik.com    ##	
+##################################
 from O365 import Account
 from O365 import Connection
 # Replace client_id and client_secret with your Azure App
