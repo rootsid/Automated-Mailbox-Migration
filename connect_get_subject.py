@@ -1,3 +1,11 @@
+####################################################	
+## Mail Checker                                   ##	
+####################################################	
+
+##################################	
+## Written by: Sidharth Kaushik ##	
+##  root@sidharthkaushik.com    ##	
+##################################
 from O365 import Account
 from O365 import Connection
 import os
