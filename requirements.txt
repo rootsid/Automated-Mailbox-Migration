@@ -2,7 +2,7 @@ idna==2.8
 MouseInfo==0.1.2
 O365==2.0.5
 oauthlib==3.1.0
-Pillow==6.2.2
+Pillow==8.3.2
 PyAutoGUI==0.9.48
 PyGetWindow==0.0.8
 PyMsgBox==1.0.7
